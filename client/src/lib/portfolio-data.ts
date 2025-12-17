@@ -94,13 +94,51 @@ export const projects = [
   },
 ];
 
+export interface Skill {
+  name: string;
+  proficiency: number;
+}
+
 export const skills = {
-  languages: ["Python", "JavaScript", "C++", "SQL", "TypeScript", "HTML", "CSS"],
-  frontend: ["React.js", "Tailwind CSS", "Framer Motion", "shadcn/ui", "Radix UI"],
-  backend: ["Node.js", "Express.js", "RESTful APIs", "Microservices"],
-  databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "SQL Server", "DynamoDB"],
-  cloud: ["AWS EC2", "AWS S3", "AWS RDS", "AWS Lambda", "CloudWatch", "Docker", "Jenkins", "CI/CD", "Git", "GitHub"],
-  tools: ["Postman", "JIRA", "Drizzle ORM", "Zod"],
+  languages: [
+    { name: "Python", proficiency: 90 },
+    { name: "JavaScript", proficiency: 95 },
+    { name: "TypeScript", proficiency: 88 },
+    { name: "SQL", proficiency: 92 },
+    { name: "C++", proficiency: 75 },
+    { name: "HTML/CSS", proficiency: 90 },
+  ],
+  frontend: [
+    { name: "React.js", proficiency: 92 },
+    { name: "Tailwind CSS", proficiency: 90 },
+    { name: "Framer Motion", proficiency: 80 },
+    { name: "shadcn/ui", proficiency: 88 },
+  ],
+  backend: [
+    { name: "Node.js", proficiency: 90 },
+    { name: "Express.js", proficiency: 88 },
+    { name: "RESTful APIs", proficiency: 92 },
+    { name: "Microservices", proficiency: 78 },
+  ],
+  databases: [
+    { name: "SQL Server", proficiency: 95 },
+    { name: "PostgreSQL", proficiency: 88 },
+    { name: "MongoDB", proficiency: 82 },
+    { name: "Redis", proficiency: 75 },
+    { name: "DynamoDB", proficiency: 80 },
+  ],
+  cloud: [
+    { name: "AWS EC2/S3/RDS", proficiency: 88 },
+    { name: "AWS Lambda", proficiency: 82 },
+    { name: "Docker", proficiency: 80 },
+    { name: "CI/CD", proficiency: 85 },
+    { name: "Git/GitHub", proficiency: 92 },
+  ],
+  tools: [
+    { name: "Postman", proficiency: 90 },
+    { name: "JIRA", proficiency: 85 },
+    { name: "Drizzle ORM", proficiency: 82 },
+  ],
 };
 
 export const education = [
