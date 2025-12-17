@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "divyapothuraju512@gmail.com",
   phone: "+1 9286660766",
   linkedin: "https://www.linkedin.com/in/divya-sri-pothuraju-644163220/",
-  github: "https://github.com/",
+  github: "https://github.com/dp2426-NAU",
   location: "Flagstaff, AZ",
 };
 
@@ -58,10 +58,24 @@ export const projects = [
   {
     id: 1,
     title: "Burnout Risk Prediction",
-    description: "End-to-end machine learning system to predict employee burnout risk using structured and unstructured datasets. Implemented ML models including Logistic Regression, Random Forest, BERT, and LSTM for sentiment analysis.",
-    techStack: ["Python", "Scikit-learn", "TensorFlow", "BERT", "LSTM", "NLP", "React.js", "TypeScript", "Node.js", "MongoDB", "JWT", "Vercel"],
+    description:
+      "End-to-end machine learning system to predict employee burnout risk using structured and unstructured datasets. Implemented ML models including Logistic Regression, Random Forest, BERT, and LSTM for sentiment analysis.",
+    techStack: [
+      "Python",
+      "Scikit-learn",
+      "TensorFlow",
+      "BERT",
+      "LSTM",
+      "NLP",
+      "React.js",
+      "TypeScript",
+      "Node.js",
+      "MongoDB",
+      "JWT",
+      "Vercel",
+    ],
     liveUrl: "https://burnout-risk-prediction.vercel.app/",
-    githubUrl: "https://github.com/",
+    githubUrl: "https://github.com/dp2426-NAU/Burnout_Risk_Prediction",
     highlights: [
       "Applied NLP techniques to analyze feedback, email communication, and workload patterns",
       "Engineered features to assess workload balance and engagement trends",
@@ -71,10 +85,21 @@ export const projects = [
   {
     id: 2,
     title: "SyncFlow - AI Collaboration Platform",
-    description: "Production-ready full-stack collaboration platform for distributed software teams with AI-powered code reviews, Kanban task management, and Architecture Decision Records portal.",
-    techStack: ["React 18", "TypeScript", "Tailwind CSS", "Node.js", "Express.js", "PostgreSQL", "Drizzle ORM", "OpenAI API", "Render"],
+    description:
+      "Production-ready full-stack collaboration platform for distributed software teams with AI-powered code reviews, Kanban task management, and Architecture Decision Records portal.",
+    techStack: [
+      "React 18",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "OpenAI API",
+      "Render",
+    ],
     liveUrl: "https://syncflow-1.onrender.com/",
-    githubUrl: "https://github.com/",
+    githubUrl: "https://github.com/dp2426-NAU/syncflow",
     highlights: [
       "Integrated AI-powered PR review assistant using OpenAI GPT-4o-mini",
       "Built Kanban-style task management with drag-and-drop workflows",
@@ -84,14 +109,54 @@ export const projects = [
   {
     id: 3,
     title: "AWS Booking Platform",
-    description: "Full-stack booking platform web application deployed on AWS with complete cloud architecture including EC2, DynamoDB, S3, and CI/CD pipelines.",
-    techStack: ["React.js", "Node.js", "REST APIs", "AWS EC2", "DynamoDB", "S3", "AWS CI/CD", "Git"],
+    description:
+      "Full-stack booking platform web application deployed on AWS with complete cloud architecture including EC2, DynamoDB, S3, and CI/CD pipelines.",
+    techStack: [
+      "React.js",
+      "Node.js",
+      "REST APIs",
+      "AWS EC2",
+      "DynamoDB",
+      "S3",
+      "AWS CI/CD",
+      "Git",
+    ],
     highlights: [
       "Deployed application on AWS EC2 with public IP hosting",
       "Utilized DynamoDB for scalable NoSQL data storage",
       "Implemented AWS CI/CD pipelines for automated deployments",
     ],
   },
+  {
+  id: 4,
+  title: "CampusCart – Cloud-Native Campus Marketplace",
+  description:
+    "Cloud-native, full-stack campus marketplace application enabling students to create and manage product listings securely. Designed using AWS serverless and managed services with event-driven architecture and scalable cloud deployment.",
+  techStack: [
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "JWT Authentication",
+    "AWS Lambda",
+    "Amazon RDS",
+    "Amazon S3",
+    "S3 Event Triggers",
+    "AWS Elastic Beanstalk",
+    "CI/CD",
+    "Render",
+  ],
+  liveUrl: "https://webcart-bzow.onrender.com/create-listing",
+  githubUrl: "https://github.com/dp2426-NAU/Campuscart",
+  highlights: [
+    "Implemented serverless backend using AWS Lambda for business logic and API handling",
+    "Designed API distribution layer routing requests to Lambda functions",
+    "Integrated Amazon RDS for structured and persistent data storage",
+    "Configured Amazon S3 for static asset hosting with Lambda trigger-based workflows",
+    "Deployed and managed application environments using AWS Elastic Beanstalk",
+    "Implemented JWT-based authentication and secure RESTful APIs",
+  ],
+},
 ];
 
 export interface Skill {
