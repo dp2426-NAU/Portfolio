@@ -3,10 +3,10 @@ export const personalInfo = {
   title: "Software Development Engineer",
   subtitle: "Full-Stack Developer | Cloud & ML Specialist",
   email: "divyapothuraju512@gmail.com",
-  phone: "+1 9286660766",
+  phone: "+1 4803829090",
   linkedin: "https://www.linkedin.com/in/divya-sri-pothuraju-644163220/",
   github: "https://github.com/dp2426-NAU",
-  location: "Flagstaff, AZ",
+  location: "Phoenix,Gilbert, AZ",
 };
 
 export const aboutContent = {
@@ -211,11 +211,11 @@ export const education = [
     degree: "Master of Science in Information Technology",
     school: "Northern Arizona University",
     location: "Flagstaff, AZ",
-    period: "Expected Dec 2025",
+    period: "Dec 2025",
   },
   {
     degree: "Bachelor of Electronics & Communication Engineering",
-    school: "Jawaharlal Institute of Technology",
+    school: "Jawaharlal Nehru Institute of Technology",
     location: "Kakinada, India",
     period: "Jun 2021",
   },
